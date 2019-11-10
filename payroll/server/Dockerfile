@@ -10,3 +10,4 @@ ENV JAVA_OPTS="-Xms32m -Xmx128m"
 
 ENTRYPOINT exec java $JAVA_OPTS -jar links-0.0.1-SNAPSHOT.jar
 
+EXPOSE 8080
